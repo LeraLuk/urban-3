@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
+* {
+  font-family: "Yuji Mai", serif;
+}
+input {
+  width: 300px;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid black;
+}
+button {
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-size: 16px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Добавить задачу</h1>
+    <input
+      type="text"
+      class="input-title"
+      placeholder="Введите название задачи"
+    />
+    <button onclick="addTask()">Добавить задачу</button><br />
+
+    <h2>Удалить задачу</h2>
+    <input
+      type="text"
+      class="input-delete"
+      placeholder="Введите название задачи, которую хотите удалить"
+    />
+    <button onclick="deleteTask()">Удалить задачу</button><br />
+
+    <h2>Список задач:</h2>
+
+    <button id="btn-show-all">Все задачи</button>
+    <button id="btn-show-completed">Выполненные задачи</button>
+    <button id="btn-show-incomplete">Не выполненные задачи</button>
+    <ul id="task-container"></ul>
+    <script src="./script.js"></script>
+  </body>
+</html>
